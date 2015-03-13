@@ -1,0 +1,15 @@
+{
+    "name": "addapp/laravel-query-log",
+    "description": "Logs full mysql queries.",
+    "keywords": ["laravel", "mysql", "query", "log"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "laravel/framework": "~4.2"
+    },
+    "autoload" : {
+        "psr-4": {
+          "Addapp\\QueryLog\\": "src/"
+        }
+    }
+}
