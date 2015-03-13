@@ -22,3 +22,7 @@ return [
 
 ]
 ```
+
+### Credits
+
+Credits go to the people answering this [stackoverflow question](http://stackoverflow.com/questions/19131731/laravel-4-logging-sql-queries).
