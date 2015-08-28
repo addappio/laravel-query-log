@@ -57,6 +57,10 @@ class QueryLogServiceProvider extends ServiceProvider
      */
     private function insertBindingsIntoQuery($query, $bindings)
     {
+        if (empty($bindings)) {
+            return $query;
+        }
+        
         $query = str_replace(array('%', '?'), array('%%', '%s'), $query);
 
         return vsprintf($query, $bindings);
