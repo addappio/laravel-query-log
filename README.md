@@ -5,7 +5,7 @@ This is a service provider fully logging all mysql queries.
 ### Installation 
 
 ```bash
-composer require addapp/laravel-query-log "~0.1"
+composer require addapp/laravel-query-log "~0.1" --dev
 ```
 
 Add the service provider to a **NON-PRODUCTION** config file:
